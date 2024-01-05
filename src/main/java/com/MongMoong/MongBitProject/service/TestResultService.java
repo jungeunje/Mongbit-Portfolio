@@ -1,7 +1,5 @@
 package com.MongMoong.MongBitProject.service;
 
-import com.MongMoong.MongBitProject.dto.TestResultFromMyPageResponse;
-import com.MongMoong.MongBitProject.dto.TestResultResponse;
 import com.MongMoong.MongBitProject.model.Question;
 import com.MongMoong.MongBitProject.model.TestResult;
 import com.MongMoong.MongBitProject.repository.QuestionRepository;

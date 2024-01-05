@@ -1,4 +1,4 @@
-package main.java.com.MongMoong.MongBitProject.repository;
+package com.MongMoong.MongBitProject.repository;
 
 import com.MongMoong.MongBitProject.model.Question;
 import com.MongMoong.MongBitProject.model.Test;
