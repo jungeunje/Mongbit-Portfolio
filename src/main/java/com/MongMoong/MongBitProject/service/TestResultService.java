@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -35,9 +34,6 @@ public class TestResultService {
         return testResult;
     }
 
-    public TestResult updateTestResult(TestResult testResult){
-        return testResultRepository.save(testResult);
-    }
     public List<TestResult> updateTestResultList(List<TestResult> testResultList){
         return testResultRepository.saveAll(testResultList);
     }

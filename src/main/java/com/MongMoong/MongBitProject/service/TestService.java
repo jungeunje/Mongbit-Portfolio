@@ -1,4 +1,4 @@
-package com.MongMoong.MongBitProject.controller;
+package com.MongMoong.MongBitProject.service;
 
 import com.MongMoong.MongBitProject.aspect.TestNullCheck;
 import com.MongMoong.MongBitProject.model.Question;
@@ -8,16 +8,9 @@ import com.MongMoong.MongBitProject.repository.TestRepository;
 import com.MongMoong.MongBitProject.service.QuestionService;
 import com.MongMoong.MongBitProject.service.TestResultService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.cache.CacheManager;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

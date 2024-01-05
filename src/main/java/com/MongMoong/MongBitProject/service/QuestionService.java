@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -31,10 +30,6 @@ public class QuestionService {
 
     public Question getQuestion(String id){
         return questionRepository.findById(id).get();
-    }
-
-    public Question updateQuestion(Question question){
-        return questionRepository.save(question);
     }
 
     public List<Question> updateQuestionList(List<Question> questionList){
